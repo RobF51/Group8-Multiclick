@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3A0CA3">
+
+
+    <View
+        android:id="@+id/viewcateg"
+        android:layout_width="405dp"
+        android:layout_height="88dp"
+        android:background="#4CC8EF"
+        android:clickable="true"
+        android:paddingHorizontal="20px"
+        android:paddingVertical="20px"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewcateg"
+        android:layout_width="253dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="28dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="TextView"
+        android:textColor="#3A0CA3"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@id/viewcateg"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/botoncategmas"
+        android:layout_width="118dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="40dp"
+        android:onClick="GoCategMas"
+        android:text="IR"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@id/viewcateg"
+        app:layout_constraintTop_toTopOf="@id/viewcateg" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

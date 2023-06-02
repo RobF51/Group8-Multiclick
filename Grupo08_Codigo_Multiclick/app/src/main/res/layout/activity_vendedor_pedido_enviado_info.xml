@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3A0CA2"
+    tools:context=".VendedorPedidoEnviadoInfo">
+
+
+    <TextView
+        android:id="@+id/idpedidotitle"
+        android:layout_width="347dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="48dp"
+        android:fontFamily="sans-serif-light"
+        android:text="numpedido"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/direccionpedidotitulo"
+        android:layout_width="148dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Dirección"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/listpedidoartEnviado" />
+
+    <TextView
+        android:id="@+id/NombreDireccionShow"
+        android:layout_width="324dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:background="#FFFFFF"
+        android:fontFamily="sans-serif-medium"
+        android:paddingHorizontal="20px"
+        android:text="Nombre"
+        android:textColor="#3A0CA1"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/direccionpedidotitulo" />
+
+    <TextView
+        android:id="@+id/ApellidosDireccionShow"
+        android:layout_width="324dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="64dp"
+        android:background="#FFFFFF"
+        android:fontFamily="sans-serif-medium"
+        android:paddingHorizontal="20px"
+        android:text="Apellido/s"
+        android:textColor="#3A0CA1"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/direccionpedidotitulo" />
+
+    <TextView
+        android:id="@+id/CalleDireccionShow"
+        android:layout_width="324dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="108dp"
+        android:background="#FFFFFF"
+        android:fontFamily="sans-serif-medium"
+        android:paddingHorizontal="20px"
+        android:text="Direccion"
+        android:textColor="#3A0CA1"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/direccionpedidotitulo" />
+
+    <TextView
+        android:id="@+id/CPDireccionShow"
+        android:layout_width="324dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="152dp"
+        android:background="#FFFFFF"
+        android:fontFamily="sans-serif-medium"
+        android:paddingHorizontal="20px"
+        android:text="CP"
+        android:textColor="#3A0CA1"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/direccionpedidotitulo" />
+
+    <TextView
+        android:id="@+id/emailDireccionShow"
+        android:layout_width="324dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="192dp"
+        android:background="#FFFFFF"
+        android:fontFamily="sans-serif-medium"
+        android:paddingHorizontal="20px"
+        android:text="Email"
+        android:textColor="#3A0CA1"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/direccionpedidotitulo" />
+
+    <ListView
+        android:id="@+id/listpedidoartEnviado"
+        android:layout_width="411dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idpedidotitle" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

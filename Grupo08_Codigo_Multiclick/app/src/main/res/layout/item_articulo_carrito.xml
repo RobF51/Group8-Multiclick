@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#3A0CA3">
+
+
+    <View
+        android:id="@+id/viewArticuloCarrito"
+        android:layout_width="418dp"
+        android:layout_height="90dp"
+        android:background="#4CC8EF"
+        android:clickable="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewArticuloCarrito"
+        android:layout_width="253dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="28dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="TextView"
+        android:textColor="#3A0CA3"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@id/viewArticuloCarrito"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

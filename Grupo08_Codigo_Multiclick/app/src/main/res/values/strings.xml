@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Multiclick</string>
+
+    <string name="hintEmail">email</string>
+    <string name="hintPass">password</string>
+    <string name="compradores">Compradores</string>
+    <string name="multiclick">Multiclick</string>
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="vendedores">Vendedores</string>
+    <string name="pedidosrealizados">pedidosrealizados</string>
+    <string name="incoming">incoming</string>
+    <string name="carrito">carrito</string>
+    <string name="home">home</string>
+    <string name="stock">Stock</string>
+    <string name="place_holder">place_holder</string>
+    <string name="quantityToAdd">Quantity to add: </string>
+    <string name="add">ADD</string>
+    <string name="quantity">"Quantity: "</string>
+</resources>

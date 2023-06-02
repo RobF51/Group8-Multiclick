@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3A0CA3"
+    tools:context=".CompradorCompraMess">
+
+
+    <TextView
+        android:id="@+id/idMessageStatus"
+        android:layout_width="282dp"
+        android:layout_height="361dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="128dp"
+        android:background="#CA2A73"
+        android:fontFamily="sans-serif-light"
+        android:paddingLeft="50px"
+        android:paddingTop="50px"
+        android:paddingEnd="50px"
+        android:paddingRight="50px"
+        android:paddingBottom="50px"
+        android:text="StatusMessage"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonGohome"
+        android:layout_width="410dp"
+        android:layout_height="128dp"
+        android:backgroundTint="#F72585"
+        android:onClick="GoHomeBuyer"
+        android:text="Pantalla Principal"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

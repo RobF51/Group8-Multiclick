@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "987823071137",
+    "project_id": "multiclick-d51d1",
+    "storage_bucket": "multiclick-d51d1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:987823071137:android:023e5ca956fff4f1a5f5e0",
+        "android_client_info": {
+          "package_name": "com.example.multiclick"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "987823071137-91qa8l9adae0hq4l0592uqf61dgj3oss.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPrQTvwP-ZzXl6Y7wmZehPuvsJL9xzPbQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "987823071137-91qa8l9adae0hq4l0592uqf61dgj3oss.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
